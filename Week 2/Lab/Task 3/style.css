@@ -1,0 +1,13 @@
+.square{
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+    position: relative;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+}

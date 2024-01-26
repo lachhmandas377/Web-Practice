@@ -1,0 +1,53 @@
+h2{
+    color: green;
+}
+.group{
+    color: blue;
+    background-color: lightgreen;
+
+}
+
+.example{
+    width: 50%;
+    height: 150px;
+    background-color: #3498db;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+div{
+    width: 50%;
+    height: 150px;
+    border: 20px solid;
+    margin: 50px 40px;
+    padding: 20px;
+    background-color: white;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: lightslategray;
+    border-color: brown;
+    border: 10px;
+
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color: lightslategray;
+    border: 10px;
+    border-color: blue;
+    /* border raduis = 10px */
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    border-radius: 50%;
+
+
+    background-color: lightslategray;
+    border-color: blue;
+    /* border raduis = 50% */
+}

@@ -1,0 +1,22 @@
+td{
+    width: 250px;
+    height: 350px;
+    top: 20px;
+    right: 30px;
+    left: 30px;
+}
+img{
+    top: 50px;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+h6{ 
+    bottom: 100px;
+    
+}
+p{
+    text-align: center;
+    color: coral;
+    bottom: 20px;
+    
+}
