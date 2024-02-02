@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./sytle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            height: 100vh;
+        }
+
+        .item {
+            margin: 10px;
+            position: relative;
+        }
+
+        .heading {
+            cursor: pointer;
+        }
+
+        .info-box {
+            
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 800px; 
+            height: 400px;
+            overflow-y: auto; 
+        }
+
+        .item:hover .info-box {
+            display: block;
+        }
+        body{
+            justify-content: center;
+            background-color: rgb(209, 19, 82);
+            padding-bottom: 200px;
+        }
+
+        
+        .imagecontent{
+            display: flex;
+            align-items: space-between;
+        }
+        img{
+            width: 150px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body >
+
+    <h1 style="margin-top: 100px;">I am Lachhman Das</h1>
+    <h5>Web designer</h5>
+
+    <div style="text-align: center;">
+        <a href="https://www.facebook.com/profile.php?id=100013344610333" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/neelesh.377?igsh=OW90djlobngyNW15" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/lachhman-das-9338bb242/" class="fa fa-linkedin" target="_blank"></a>
+        <a href="https://x.com/Neeleshkothari8?t=H661KLNWXcIjaS38KmWITQ&s=09" class="fa fa-twitter" target="_blank"></a>        
+    </div>
+
+
+
+    <div class="container">
+        <div class="item">
+            <h2 class="heading">About Me</h2>
+            <div class="info-box">
+
+                <img class="dp" src="./dp.jpg" alt="pic">
+                <p>
+                    Hello there! I'm Lachhman Das, a passionate web and Python developer dedicated to crafting exceptional digital experiences. With a keen eye for detail and a love for problem-solving, I thrive on turning complex ideas into elegant and user-friendly solutions. </br></br>
+                    Web Development: I specialize in creating dynamic and responsive websites, leveraging the latest technologies to ensure a seamless user experience. From front-end design to back-end development, I'm committed to building websites that not only look great but also perform flawlessly. </br></br>
+                    Python Development: As a Python enthusiast, I enjoy harnessing the power of this versatile language for a wide range of applications. Whether it's web development, automation, or data analysis, I bring Python's efficiency and clarity to every project. </br></br>
+                </p>
+            
+             </div>
+        </div>
+
+        <div class="item">
+            <h2 class="heading">Projects</h2>
+            <div class="info-box" >
+                <div style="display: flex; justify-content: space-around; margin-top: 80px;">
+                    <div class="imagecontect">
+                        <img src="./commerce.jpeg" alt="commerce">
+                        <h4>E-Commerce</h4>
+                    </div>    
+                    <div class="imagecontect">
+                        <img src="./mess.jpeg" alt="mess">
+                        <h4>Mess Management</h4>
+                    </div>
+                    <div class="imagecontect">
+                        <img src="./airline2.jpeg" alt="airline">
+                        <h4>Airline Management</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            
+        <div class="item">
+            <h2 class="heading">Skills</h2>
+            <div class="info-box ">
+                <div style="display: flex; justify-content: space-around; margin-top: 80px;">
+                 <div>
+                    <img class="project" src="./java.png" alt="java">
+                    <h4>java</h4>
+
+                 </div>
+                 <div>
+                    <img class="project" src="./python.jpeg" alt="python">
+                    <h4>Python</h4>
+
+                 </div>
+                 <div>
+                    <img class="project" src="./web.jpeg" alt="web">
+                    <h4>Web Development</h4>
+
+                 </div>   
+            </div>
+        </div>
+    
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+h1, h5{
+    text-align: center;
+    color: white;
+    text-decoration: rgb(255, 254, 254);
+    font-family:  'Arial Narrow';
+}
+
+h2{
+    color: white;
+    text-decoration: rgb(255, 254, 254);
+}
+.dp{
+    margin-left: 60px;
+    width: 180px;
+    height: 240px;
+    float: left;
+}
+
+p{
+    margin-top: 20px;
+    text-justify: auto;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    justify-content: space-evenly;
+}
+
+/* .project{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    float: left;
+    flex-shrink: 1;
+} */

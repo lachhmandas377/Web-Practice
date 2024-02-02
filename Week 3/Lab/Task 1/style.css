@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    width: 500px;
+    height: 450px;
+    background-color: rgb(233, 195, 152);
+    flex-wrap: wrap;
+    color: white;
+}
+
+.hf{
+    width: 450px;
+    height: 40px;
+    margin: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.aside{
+    height: 250px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px;
+    background-color: rgb(123, 196, 196);
+
+}
+
+.art{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(245, 56, 150);
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    width: 65px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 15px 20px 10px;
+    float: left;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(216, 222, 228);
+}
