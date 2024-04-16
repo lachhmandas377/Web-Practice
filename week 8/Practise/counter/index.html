@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+        #counter {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="counter">0</div>
+    <button onclick="increment()">+</button>
+    <button onclick="decrement()">-</button>
+
+    <script>
+        let count = 0;
+        const counterElement = document.getElementById('counter');
+
+        function increment() {
+            localStorage.setItem(++count, count)
+            counterElement.textContent = count;
+        }
+        function decrement() {
+            if (count > 0) {
+                localStorage.removeItem(count--)
+                counterElement.textContent = count;
+
+            }
+        }
+    </script>
+</body>
+</html>
